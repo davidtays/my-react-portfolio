@@ -11,10 +11,10 @@ import {Switch, Route} from 'react-router-dom';
 const Main = () => (
     <Switch>
         <Route exact path={process.env.PUBLIC_URL + '/'} component={Landing} />
-        <Route path="my-react-portfolio/aboutme" component={About} />
-        <Route path="my-react-portfolio/contact" component={Contact} />
-        <Route path="my-react-portfolio/projects" component={Projects} />
-        <Route path="my-react-portfolio/resume" component={Resume} />
+        <Route exact path={process.env.PUBLIC_URL + '/aboutme'} component={About} />
+        <Route exact path={process.env.PUBLIC_URL + '/contact'} component={Contact} />
+        <Route exact path={process.env.PUBLIC_URL + '/projects'} component={Projects} />
+        <Route exact path={process.env.PUBLIC_URL + '/resume'} component={Resume} />
     </Switch>
 )
 export default Main;
