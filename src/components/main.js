@@ -6,12 +6,10 @@ import Contact from './contact';
 import Projects from './projects';
 import Resume from './resume';
 
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import {Switch, Route} from 'react-router-dom';
 
 const Main = () => (
-    <BrowserRouter
-        basename="process.env.PUBLIC_URL + "
-    >
+    
         <Switch>
             <Route exact path="/landingpage" component={Landing} />
             <Route path="/aboutme" component={About} />
@@ -19,6 +17,6 @@ const Main = () => (
             <Route path="/projects" component={Projects} />
             <Route path="/resume" component={Resume} />
         </Switch>
-    </BrowserRouter>
+    
 )
 export default Main;
