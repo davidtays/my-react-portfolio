@@ -12,14 +12,13 @@ const Main = () => (
     <BrowserRouter
         basename="process.env.PUBLIC_URL + "
     >
-    <Switch>
-        <Route exact path={'/'} component={Landing} />
-        <Route exact path={process.env.PUBLIC_URL + '/components/aboutme'} component={About} />
-        <Route exact path={process.env.PUBLIC_URL + '/components/contact'} component={Contact} />
-        <Route exact path={process.env.PUBLIC_URL + '/components/projects'} component={Projects} />
-        <Route exact path={process.env.PUBLIC_URL + '/components/resume'} component={Resume} />
-    </Switch>
+        <Switch>
+            <Route exact path="/landingpage" component={Landing} />
+            <Route path="/aboutme" component={About} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/resume" component={Resume} />
+        </Switch>
     </BrowserRouter>
-    
 )
 export default Main;
