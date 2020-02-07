@@ -10,11 +10,11 @@ import {Switch, Route} from 'react-router-dom';
 
 const Main = () => (
     <Switch>
-        <Route exact path="/" component={Landing} />
-        <Route path="/aboutme" component={About} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/resume" component={Resume} />
+        <Route exact path="my-react-portfolio/" component={Landing} />
+        <Route path="my-react-portfolio/aboutme" component={About} />
+        <Route path="my-react-portfolio/contact" component={Contact} />
+        <Route path="my-react-portfolio/projects" component={Projects} />
+        <Route path="my-react-portfolio/resume" component={Resume} />
     </Switch>
 )
 export default Main;
