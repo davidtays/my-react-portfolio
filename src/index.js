@@ -9,9 +9,7 @@ import 'react-mdl/extra/material.js';
 
 
 ReactDOM.render(
-    <BrowserRouter
-        basename="/my-react-portfolio"
-    >
+    <BrowserRouter>
         <App />  
     </BrowserRouter>      
     , document.getElementById('root'));
