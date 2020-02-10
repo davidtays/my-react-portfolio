@@ -16,11 +16,11 @@ class Landing extends Component{
                             <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
                             <div className="social-links">
                                 {/* LinkedIn */}
-                                <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/david-tays/" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-linkedin-square" aria-hidden="true"/>
                                 </a>
                                 {/* GitHub */}
-                                <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/davidtays" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-github-square" aria-hidden="true"/>
                                 </a>
                                 {/* Freecodecamp */}
@@ -28,7 +28,7 @@ class Landing extends Component{
                                     <i className="fa fa-free-code-camp" aria-hidden="true"/>
                                 </a>
                                 {/* Youtube */}
-                                <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                                <a href="http://youtube.com" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-youtube-square" aria-hidden="true"/>
                                 </a>
                             </div>
