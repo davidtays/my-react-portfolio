@@ -1,19 +1,20 @@
 import React, {Component} from 'react';
-import {Grid, Cell} from 'react-mdl';
+import {Card, CardTitle, CardText} from 'react-mdl';
 
 class Personal extends Component{
     render(){
         return(
-            <Grid className="contact-grid">
-                <Cell col={4}>
-                    <h4>{this.props.topic}</h4>
-                </Cell>
-                <Cell className="resume-right-col" col={8}>
-                    <p style={{width: '75%', margin: 'auto'}}>{this.props.details}</p>
-                </Cell>
-                <hr style={{borderTop: '3px solid #833fb2', width: '100%'}} />
-            </Grid>
+            <div className="about-me">
             
+            <Card shadow={0} style={{width: '100%'}}>
+                <CardTitle expand>
+                    <h2>{this.props.topic}</h2>
+                </CardTitle>
+                <CardText>
+                    <p>{this.props.details}</p>
+                </CardText>
+            </Card>
+            </div>
         )
     }
 }

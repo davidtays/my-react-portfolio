@@ -21,7 +21,10 @@
   width: 100%;
   height: 100%;
 }
-
+.about-me{
+  width: 75%;
+  margin: auto;
+}
 .projects-grid {
   display: flex;
 }
